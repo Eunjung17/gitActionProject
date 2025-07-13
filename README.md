@@ -115,6 +115,7 @@ For each session, select **1-2 algorithm problems** and prepare the following:
 | 19      | 2025-06-29 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)/ [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) /  [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)                                             |
 | 20      | 2025-07-06 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)           
 | 21      | 2025-07-06 | [21A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [21B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
+| 22      | 2025-07-06 | [22A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [22B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 
 
 
