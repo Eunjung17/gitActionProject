@@ -1,11 +1,17 @@
 import re
 from pathlib import Path
+from git import Repo
 
 README = Path("README.md")
 CODES_DIR = Path("codes")
 
 # 문제 추출 정규표현식 (예: [547] [Number of Provinces])
 problem_pattern = re.compile(r"\[(\d+)\]\s*\[?([^\]]+)\]?")
+
+def readme_was_modified():
+    repo = Repo(".")
+    diff_files = repo.git.diff("HEAD~1", name_only=True).splitlines()
+    return "README.md" in diff_files
 
 def extract_problems():
     content = README.read_text(encoding="utf-8")
@@ -43,4 +49,8 @@ def extract_problems():
     print(f"\n🎉 Total new files created: {total_created}")
 
 if __name__ == "__main__":
-    extract_problems()
+    if readme_was_modified():
+        print("✅ README.md was modified. Proceeding...")
+        extract_problems()
+    else:
+        print("⏭ README.md not modified. Skipping extract.")

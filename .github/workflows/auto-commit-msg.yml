@@ -52,5 +52,4 @@ jobs:
           GITHUB_EVENT_NAME: ${{ github.event_name }}
 
       - name: Extract strings from README.md
-        if: contains(join(github.event.head_commit.modified, ','), 'README.md')
         run: python scripts/extract_strings.py
