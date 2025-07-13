@@ -50,3 +50,6 @@ jobs:
           GITHUB_REF: ${{ github.ref }}
           GITHUB_BASE_REF: ${{ github.base_ref }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
+
+      - name: Extract strings from .md
+        run: python scripts/extract_strings.py
