@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "0d6ff72f07c74f66",
+    "type": "split",
+    "children": [
+      {
+        "id": "2655dfbf271d7dea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8eca82a7857390d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d978e1102ca3daae",
+    "type": "split",
+    "children": [
+      {
+        "id": "c54df3d67ab610b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "082dd6eae6a8250a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f3f06d8d50da2633",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "de77a0d826276f5f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 446.5
+  },
+  "right": {
+    "id": "5507a9357dd62ceb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4895853da4d5514",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b850a331716182f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "401.Binary_search/Eunjung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Eunjung"
+            }
+          },
+          {
+            "id": "54d9ab17130fda54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "401.Binary_search/Eunjung.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Eunjung"
+            }
+          },
+          {
+            "id": "49d649b24c30b920",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "09cf1a847bd37481",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "401.Binary_search/Eunjung.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Eunjung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "f8eca82a7857390d",
+  "lastOpenFiles": [
+    "933.Number_of_recent_calls/eunjung.md",
+    "46.Permutations/eunjung.md",
+    "2025-06-13.md",
+    "git pull.md",
+    "eunjung_sample.md",
+    "LeetCode-Problems/649.Dota2_Senate/eunjung.md",
+    "LeetCode-Problems/1700.Numbers_of_Student_Unable_to_Eat_lunch/eunjung.md",
+    "933.Number_of_recent_calls/yunyeong.md",
+    "649.Dota2_Senate/yunyeong.md",
+    "scripts/rewrite_commit_msg.py",
+    "scripts/extract_codes.py",
+    "scripts",
+    "codes/yujo/739_dailytemperatures.ts",
+    "codes/yujo/933_numberofrecentcalls_1.ts",
+    "codes/yujo/933_numberofrecentcalls.ts",
+    "codes/yujo/88_mergesort_1.ts",
+    "codes/yujo/88_mergesort.ts",
+    "codes/yujo/84_largestrectangleinhistogram_1.ts",
+    "codes/yujo/84_largestrectangleinhistogram.ts",
+    "LeetCode-Problems/784.Letter_Case_Permutation/naeun.md",
+    "LeetCode-Problems/784.Letter_Case_Permutation/yunyeong.md",
+    "LeetCode-Problems/784.Letter_Case_Permutation/jiheon.md",
+    "LeetCode-Problems/784.Letter_Case_Permutation/eunjung.md",
+    "LeetCode-Problems/933.Number_of_recent_calls/yunyeong.md",
+    "LeetCode-Problems/933.Number_of_recent_calls/yujo.md",
+    "LeetCode-Problems/933.Number_of_recent_calls/vimkim.md",
+    "LeetCode-Problems/933.Number_of_recent_calls/jiheon.md",
+    "LeetCode-Problems/88.Merge_Sort/yunyeong.md",
+    "LeetCode-Problems/88.Merge_Sort/yujo.md",
+    "LeetCode-Problems/643.Maximum_Average_Subarray_1/yujo.md",
+    "LeetCode-Problems/88.Merge_Sort/jiheon.md",
+    "LeetCode-Problems/88.Merge_Sort/vimkim.md",
+    "LeetCode-Problems/643.Maximum_Average_Subarray_1/yunyeong.md",
+    "LeetCode-Problems/643.Maximum_Average_Subarray_1/naeun.md",
+    "LeetCode-Problems/860.Lemonade_Change/yunyeong.md",
+    "LeetCode-Problems/463.Island_Perimeter/yunyeong.md"
+  ]
+}
