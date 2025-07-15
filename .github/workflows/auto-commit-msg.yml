@@ -51,5 +51,13 @@ jobs:
           GITHUB_BASE_REF: ${{ github.base_ref }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
 
-      - name: Extract strings from README.md
-        run: python scripts/extract_strings.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install dependencies for extractProblems
+        run: npm install
+
+      - name: Extract new LeetCode problems and create files
+        run: node scripts/extractProblems.js
