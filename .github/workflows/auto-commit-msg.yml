@@ -56,6 +56,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Check file structure
+        run: ls -R
+
       - name: Install dependencies for extractProblems
         run: npm install
 
