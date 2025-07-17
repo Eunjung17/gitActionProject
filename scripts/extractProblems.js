@@ -54,6 +54,13 @@ function createProblemFiles(problems) {
     if (!fs.existsSync(folderPath)) {
         console.log(`✅ Created: ${folderPath}`);
         fs.mkdirSync(folderPath, { recursive: true });
+
+        //create sample.md in new folders
+        const samplePath = path.join(folderPath, "yunyeong.md");
+        const content = `# [${problem.title}](${problem.url})\n`;
+        fs.writeFileSync(samplePath, content);
+        console.log(`📝 Created: ${samplePath}`);
+
     }else{
         console.log(`⚠️ Already exists: ${folderPath}`);
     }
