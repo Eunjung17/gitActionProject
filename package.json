@@ -1,0 +1,15 @@
+{
+  "name": "gitactionproject",
+  "version": "1.0.0",
+  "description": "Welcome to the **LeetCode Study Group**, a collaborative space to enhance algorithm problem-solving skills through structured discussions and teamwork. Let's grow together! 🚀",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
