@@ -114,15 +114,14 @@ For each session, select **1-2 algorithm problems** and prepare the following:
 | <br>18  | 2025-06-22 | [1046. Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) / [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) / [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                                               |
 | 19      | 2025-06-29 | [1524. Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)/ [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) /  [525. Contiguous Array](https://leetcode.com/problems/contiguous-array/)                                             |
 | 20      | 2025-07-06 | [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)           
-| 21      | 2025-07-06 | [21A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [21B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
-| 22      | 2025-07-06 | [22A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [22B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
+| 21      | 2025-07-06 | [21A. Number of Array 1](https://leetcode.com/problems/number-of-provinces/) / [21B. Find Peak 1](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
+| 22      | 2025-07-06 | [22A. Number of Array 1](https://leetcode.com/problems/number-of-provinces/) / [22B. Find Peak 1](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 | 23      | 2025-07-06 | [23A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [23B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 | 24      | 2025-07-06 | [24A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [24B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
-
-
+| 25      | 2025-07-06 | [25A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [25B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 
 ---
 
 ### Let’s solve, learn, and improve together! 💻✨
 
-#week24
+#week25

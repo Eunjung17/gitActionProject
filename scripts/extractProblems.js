@@ -2,8 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 
-const README_PATH = "README.md";
-const CODES_DIR = "codes";
+const FOLDER_PATH = "LeetCode-Problems";
 
 // 1. get README.md diff
 function getReadmeDiff() {
@@ -20,9 +19,12 @@ function getReadmeDiff() {
 
 // 2. extract new problem lines from diff
 function extractNewProblems(diff) {
+
+    console.log(`✅ diff shape: ${diff}`);
   const addedLines = diff
     .split("\n")
     .filter(line => line.startsWith("+") && !line.startsWith("+++"));
+    console.log(`✅ addeLines shape: ${addedLines}`);
 
   const problemRegex = /\[(\d+\w?)\. (.+?)\]\((https:\/\/leetcode\.com\/problems\/.+?)\)/g;
 
@@ -36,7 +38,7 @@ function extractNewProblems(diff) {
       problems.push({
         id,
         title,
-        filename: `${id}_${sanitizedTitle}.js`,
+        foldername: `${id}.${sanitizedTitle}`,
         url,
       });
     }
@@ -45,28 +47,17 @@ function extractNewProblems(diff) {
   return problems;
 }
 
-// 3. get all subfolders under 'codes'
-function getSubfolders(basePath) {
-  return fs
-    .readdirSync(basePath, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => path.join(basePath, dirent.name));
-}
+function createProblemFiles(problems) {
+  problems.forEach(problem => {
+    const folderPath = path.join(FOLDER_PATH, problem.foldername);
 
-// 4. create files
-function createFilesInFolders(folders, problems) {
-  for (const folder of folders) {
-    for (const problem of problems) {
-      const filePath = path.join(folder, problem.filename);
-      if (!fs.existsSync(filePath)) {
-        const content = `// ${problem.id}. ${problem.title}\n// ${problem.url}\n\n`;
-        fs.writeFileSync(filePath, content);
-        console.log(`✅ Created: ${filePath}`);
-      } else {
-        console.log(`⚠️ Already exists: ${filePath}`);
-      }
+    if (!fs.existsSync(folderPath)) {
+        console.log(`✅ Created: ${folderPath}`);
+        fs.mkdirSync(folderPath, { recursive: true });
+    }else{
+        console.log(`⚠️ Already exists: ${folderPath}`);
     }
-  }
+  });
 }
 
 // 🔁 Main logic
@@ -79,13 +70,11 @@ function main() {
     return;
   }
 
-  for(let i = 0 ; i < problems.length ; i++){
-    console.log("!added problems!");
-    console.log(problems[i]);
-  }
+//   for(let i = 0 ; i < problems.length ; i++){
+//     console.log(problems[i]);
+//   }
 
-  //const folders = getSubfolders(CODES_DIR);
-  //createFilesInFolders(folders, problems);
+  createProblemFiles(problems);
 }
 
 main();
