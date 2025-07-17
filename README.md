@@ -126,9 +126,10 @@ For each session, select **1-2 algorithm problems** and prepare the following:
 | 30      | 2025-07-17 | [30A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [30B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 | 31      | 2025-07-17 | [31A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [31B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 | 32      | 2025-07-17 | [32A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [32B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
+| 33      | 2025-07-17 | [33A. Number of Provinces](https://leetcode.com/problems/number-of-provinces/) / [33B. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)       |
 
 ---
 
 ### Let’s solve, learn, and improve together! 💻✨
 
-#week32
+#week33
