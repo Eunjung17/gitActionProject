@@ -78,10 +78,6 @@ function main() {
     return;
   }
 
-//   for(let i = 0 ; i < problems.length ; i++){
-//     console.log(problems[i]);
-//   }
-
   createProblemFiles(problems);
 }
 

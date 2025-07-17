@@ -61,7 +61,7 @@ jobs:
       - name: Install dependencies for extractProblems
         run: npm install
 
-      - name: Extract new LeetCode problems and create files
+      - name: Extract New LeetCode problems and Create Files
         run: node scripts/extractProblems.js
 
       - name: Commit created problem folders
@@ -70,6 +70,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "🤖 Create folders for new problems"
+            git commit -m "create folder and .md"
             git push
           fi
