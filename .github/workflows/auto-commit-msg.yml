@@ -51,16 +51,25 @@ jobs:
           GITHUB_BASE_REF: ${{ github.base_ref }}
           GITHUB_EVENT_NAME: ${{ github.event_name }}
 
+      # Create new folder when question added in README.md
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
-      - name: Check file structure
-        run: ls -R
 
       - name: Install dependencies for extractProblems
         run: npm install
 
       - name: Extract new LeetCode problems and create files
         run: node scripts/extractProblems.js
+
+      - name: Commit created problem folders
+        run: |
+          git add LeetCode-Problems/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🤖 Create folders for new problems"
+            git push
+          fi
